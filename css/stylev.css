@@ -1,0 +1,73 @@
+
+/* Ventana Modal Manual*/
+
+#ventana {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -300px;
+}
+ 
+#ventana:target {
+   visibility:visible;
+   opacity: 1;
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   z-index: 999;
+   -webkit-transition:all 1s;
+   -moz-transition:all 1s;
+   transition:all 1s;
+}
+.ventana-contenedor {
+   position: relative;
+   margin:7% auto;
+   padding:30px 50px;
+   background-color: #fafafa;
+   color:#333;
+   border-radius: 3px;
+   width:50%;
+}
+a.ventana-cerrar {
+   position: absolute;
+   top:3px;
+   right:3px;
+   background-color: #333;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+}
+
+/* Ventana Modal Automatico*/
+
+#ventanaauto {
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   /* Animación que durará 2 segundos*/
+   -webkit-animation:autopopup 2s;
+   -moz-animation:autopopup 2s;
+   animation:autopopup 2s;
+}
+
+@-webkit-keyframes autopopup {
+     from {opacity: 0;margin-top:-200px;}
+     to {opacity: 1;}
+}
+@-moz-keyframes autopopup {
+    from {opacity: 0;margin-top:-200px;}
+    to {opacity: 1;}
+}
+@keyframes autopopup {
+    from {opacity: 0;margin-top:-200px;}
+    to {opacity: 1;}
+}

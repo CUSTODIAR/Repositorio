@@ -1,0 +1,205 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial;
+    width: 100%;
+    height: 100%;
+    color: #555;
+    background-color: #000;
+}
+
+
+
+/*caja de texto*/
+input{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    
+    height: 20px;
+    width: 170px;
+    padding: 5px;
+}
+
+
+
+/*Lista select*/
+select {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    height: 30px;
+    width: 180px;
+    padding: 5px;
+     
+  }
+
+/*tabla*/
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+
+
+/* --------------------*/
+/* Clases */
+
+.logo{
+    width: 20%;
+    text-align:right;
+}
+
+.contenido {
+    background-color: #FFFFFF;
+    padding: 5px;
+    margin: 12px ;
+
+    height: 100%;
+    width: auto;
+    border-radius:4px;
+    padding: 6px; 
+    border: 1px solid none;
+}
+
+.fecha {
+    font-family: Arial;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    width:60%;
+    height: 25px;
+
+}
+
+.tablaimagen{    
+    text-align: center; 
+    padding: 8px;
+}
+
+.tablatitulo{    
+    font-family: Arial;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+.tablanuevo{    
+    font-family: Arial;
+    text-align: left;
+    color: #555;
+    width: 50%;
+    padding: 15px;
+}
+
+
+.tablalista{    
+    font-family: Arial;
+    text-align: center;
+    color: #555;
+    width: 50%;
+    padding: 15px;
+
+    width:60%;
+    height: 25px;
+}
+
+.tablapro{    
+    font-family: Arial;
+    text-align: center;
+    color: #555;
+    width: 25%;
+    padding: 15px;
+}
+
+.tablaunion{    
+    font-family: Arial;
+    text-align: center;
+    color: #555;
+    width: 40%;
+    padding: 15px;
+}
+
+.tablabordes {
+    border: 1px solid #ddd; 
+    border-radius:3px;    
+    padding: 8px;
+}
+
+.tablainforme{    
+    font-family: Arial;
+    text-align: center;
+    color: #555;
+    width: 20%;
+    padding: 15px;
+}
+.tablainformes {
+    border: 1px solid #ddd; 
+    border-radius:3px;    
+    padding: 5px;
+}
+
+
+.boton1 {
+    background-color: #555;
+    color: white;  
+    text-align: center; 
+
+    width:80px;
+    height:30px;
+    border: 0px;
+    border-radius: 5px;
+
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.boton1:hover {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+.boton2 {
+    background-color: #555;
+    color: white;  
+    text-align: center; 
+
+    width:80px;
+    height:30px;
+    border: 0px;
+    border-radius: 5px;
+
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.boton2:hover {
+    background-color: #999998; /* Verde */
+    color: black;
+}
+
+.boton3 {
+    background-color: #555;
+    color: white;  
+    text-align: center; 
+
+    width:80px;
+    height:30px;
+    border: 0px;
+    border-radius: 5px;
+
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.boton3:hover {
+    background-color: #f44336; /* Verde */
+    color: white;
+}
+
+
