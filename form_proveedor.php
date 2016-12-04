@@ -13,7 +13,7 @@
             <div class="tabs">
                 <ul>
                     <li><a href="index.php"> <img src="img/menu-4.png" width=40 height=40> Inicio </a></li>
-                    <li><a href="#proveedor" class="active"> <img src="img/user-3.png" width=40 height=40> Proveedores </a></li>
+                    <li><a href="#proveedor" class="active"> <img src="img/user-4.png" width=40 height=40> Proveedores </a></li>
                 </ul>
 
                 <!--inicio-->  
@@ -65,7 +65,7 @@
                                     <td><?php echo $row['direccion'] ?></td>
                                     <td>
                                         <a href="actualizar_proveedor.php?u=<?php echo $row['idproveedor'] ?>">
-                                        <img src="img/boton-1.png" width=20 height=20 title="Editar Registro"></a>
+                                        <img src="img/boton-10.png" width=20 height=20 title="Editar Registro"></a>
                                     </td>
                                     
                                 </tr>
@@ -86,7 +86,7 @@
                                 <thead>                        
                                     
                                     <!--encabezado-->
-                                    <tr><td colspan=2 class="tablaimagen"><img src="img/user-3.png" width=80 height=80></td></tr>
+                                    <tr><td colspan=2 class="tablaimagen"><img src="img/user-1.png" width=80 height=80></td></tr>
                                     <tr><td colspan=2 class="tablatitulo">Agregar Proveedor</td></tr>
                                     <tr><td><br></td></tr>
 

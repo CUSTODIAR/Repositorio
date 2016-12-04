@@ -10,7 +10,10 @@ body {
     background-color: #000;
 }
 
-
+/*Lista*/
+li {
+    list-style: none;
+}
 
 /*caja de texto*/
 input{
@@ -22,15 +25,13 @@ input{
     padding: 5px;
 }
 
-
-
 /*Lista select*/
 select {
     border: 1px solid #ddd;
     border-radius: 3px;
 
     height: 30px;
-    width: 180px;
+    width: 190px;
     padding: 5px;
      
   }
@@ -64,14 +65,13 @@ table {
     border: 1px solid none;
 }
 
-.fecha {
-    font-family: Arial;
-    font-size: 14px;
-    color: #555;
-    text-align: left;
-    width:60%;
-    height: 25px;
-
+.tab{
+    size:4;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: left; 
+       
 }
 
 .tablaimagen{    
@@ -83,7 +83,11 @@ table {
     font-family: Arial;
     font-size: 16px;
     color: #555;
+
     text-align: center;
+    border-radius:3px;    
+    padding: 8px; 
+    width:60%;  
 }
 
 .tablanuevo{    
@@ -91,41 +95,56 @@ table {
     text-align: left;
     color: #555;
     width: 50%;
+
     padding: 15px;
+  
 }
 
+
+.tablalist{    
+    font-family: Arial;
+    text-align: left;
+    font-size: 13px;
+    color: #555;
+    
+    border: 1px solid none; 
+    border-radius:3px;    
+    padding: 6px; 
+
+    width:30%;
+    height: 25px;   
+}
 
 .tablalista{    
     font-family: Arial;
     text-align: center;
+    font-size: 13px;
     color: #555;
-    width: 50%;
-    padding: 15px;
+    
+    border: 1px solid none; 
+    border-radius:3px;    
+    padding: 6px; 
 
     width:60%;
     height: 25px;
 }
 
-.tablapro{    
-    font-family: Arial;
-    text-align: center;
-    color: #555;
-    width: 25%;
-    padding: 15px;
-}
-
-.tablaunion{    
-    font-family: Arial;
-    text-align: center;
-    color: #555;
-    width: 40%;
-    padding: 15px;
-}
 
 .tablabordes {
     border: 1px solid #ddd; 
     border-radius:3px;    
-    padding: 8px;
+    padding: 10px;
+}
+
+.tbalainicio{    
+    font-family: Arial;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    
+    border-radius:3px;    
+    padding: 9px;
+
 }
 
 .boton1 {
@@ -187,5 +206,3 @@ table {
     background-color: #f44336; /* Verde */
     color: white;
 }
-
-

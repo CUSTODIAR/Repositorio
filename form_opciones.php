@@ -10,9 +10,9 @@
             <div class="tabs">
                 <ul>
                     <li><a href="index.php"> <img src="img/menu-4.png" width=40 height=40> Inicio </a></li>
-                    <li><a href="#inicio" class="active"><img src="img/boton-4.png" width=40 height=40> Opciones</a></li>
-                    <li><a href="#cargos"><img src="img/boton-5.png" width=40 height=40> Cargos</a></li>
-                    <li><a href="#contratos"><img src="img/boton-6.png" width=40 height=40> Contratos</a></li>
+                    <li><a href="#inicio" class="active"><img src="img/user-3.png" width=40 height=40> Mas Opciones</a></li>
+                    <li><a href="#cargos"><img src="img/user-3.png" width=40 height=40> Cargos</a></li>
+                    <li><a href="#contratos"><img src="img/user-3.png" width=40 height=40> Contratos</a></li>
                 </ul>
 
             <!--inicio productos--> 
@@ -23,8 +23,8 @@
 
                     <table class="tablanuevo">
                         <tr>
-                            <td><li><a href="#cargos"><img src="img/boton-5.png" width=40 height=40> Cargos</a></li></td>
-                            <td><li><a href="#contratos"><img src="img/boton-6.png" width=40 height=40> Contratos</a></li></td>
+                            <td><li><a href="#cargos"><img src="img/user-3.png" width=40 height=40> Cargos</a></li></td>
+                            <td><li><a href="#contratos"><img src="img/user-3.png" width=40 height=40> Contratos</a></li></td>
                         </tr>
                     </table>
                 </form>
@@ -40,7 +40,7 @@
                         <thead>
 
                             <!--encabezado--> 
-                            <tr><td colspan=10 class="tablaimagen"><img src="img/boton-5.png" width=80 height=80></td></tr>
+                            <tr><td colspan=10 class="tablaimagen"><img src="img/user-3.png" width=80 height=80></td></tr>
                             <tr><td colspan=10 class="tablatitulo">Cargos</td></tr>
                             <tr><td colspan=10 align="right"><input type="button" value="Agregar" class="boton1" onClick=" window.location.href='#ventana' "></td></tr>
                             <tr><td><br></td></tr>
@@ -82,7 +82,7 @@
                     <table class="tablanuevo">
                         <thead>
                             <!--encabezado--> 
-                            <tr><td colspan=10 class="tablaimagen"><img src="img/boton-6.png" width=80 height=80></td></tr>
+                            <tr><td colspan=10 class="tablaimagen"><img src="img/user-3.png" width=80 height=80></td></tr>
                             <tr><td colspan=10 class="tablatitulo">Contratos</td></tr>
                             <tr><td colspan=10 align="right"><input type="button" value="Agregar" class="boton1" onClick=" window.location.href='#ventanab' "></td></tr>
                             <tr><td><br></td></tr>
@@ -124,7 +124,7 @@
                                 <thead>                        
                                     
                                     <!--encabezado-->
-                                    <tr><td colspan=2 class="tablaimagen"><img src="img/boton-5.png" width=80 height=80></td></tr>
+                                    <tr><td colspan=2 class="tablaimagen"><img src="img/user-1.png" width=80 height=80></td></tr>
                                     <tr><td colspan=2 class="tablatitulo">Agregar Cargo</td></tr>
                                     <tr><td><br></td></tr>
 
@@ -168,7 +168,7 @@
                                 <thead>                        
                                     
                                     <!--encabezado-->
-                                    <tr><td colspan=2 class="tablaimagen"><img src="img/boton-6.png" width=80 height=80></td></tr>
+                                    <tr><td colspan=2 class="tablaimagen"><img src="img/user-1.png" width=80 height=80></td></tr>
                                     <tr><td colspan=2 class="tablatitulo">Agregar Contrato</td></tr>
                                     <tr><td><br></td></tr>
 

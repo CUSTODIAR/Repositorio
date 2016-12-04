@@ -10,20 +10,21 @@
             <div class="tabs">
                 <ul>
                     <li><a href="index.php"> <img src="img/menu-4.png" width=40 height=40> Inicio </a></li>
-                    <li><a href="#producto" class="active"><img src="img/ico-2.png" width=40 height=40> Productos</a></li>
+                    <li><a href="#producto" class="active"><img src="img/user-3.png" width=40 height=40> Productos</a></li>
                 </ul>
             
-                <!--inicio-->  
-                <div id="producto">
-                    <form action="#" method="post">
-                    <!--Salto de linea--> <p><br/></p>
+            <!--inicio dotacion-->     
+            <div id="producto" class="tab">
+                <form action="#" method="post">
+                    <!--Salto de linea--> 
+                    <p><br/></p>
 
-                    <table class="tablanuevo">
+                    <table class="tablalista">
                         <thead>
 
                             <!--encabezado--> 
-                            <tr><td colspan=3 class="tablaimagen"><img src="img/ico-2.png" width=80 height=80></td></tr>
-                            <tr><td colspan=3 class="tablatitulo">Productos</td></tr>
+                            <tr><td colspan=3 class="tablaimagen"><img src="img/user-3.png" width=80 height=80></td></tr>
+                            <tr><td colspan=3 class="tablatitulo">Productos de Dotacion</td></tr>
                             <tr><td colspan=3 align="right"><input type="button" value="Agregar" class="boton1" onClick=" window.location.href='#ventana' "></td></tr>
                             <tr><td><br></td></tr>
                         
@@ -47,7 +48,7 @@
                                     <td><?php echo $row['estado'] ?></td>
                                     <td>
                                         <a href="actualizar_producto.php?u=<?php echo $row['iddotacion'] ?>">
-                                        <img src="img/boton-1.png" width=20 height=20 title="Editar Registro"></a>
+                                        <img src="img/boton-10.png" width=20 height=20 title="Editar Registro"></a>
                                     </td>
                                 </tr>
                             <?php
@@ -69,7 +70,7 @@
                                 <thead>                        
                                     
                                     <!--encabezado-->
-                                    <tr><td colspan=2 class="tablaimagen"><img src="img/ico-2png" width=80 height=80></td></tr>
+                                    <tr><td colspan=2 class="tablaimagen"><img src="img/user-1.png" width=80 height=80></td></tr>
                                     <tr><td colspan=2 class="tablatitulo">Agregar Producto Dotacion</td></tr>
                                     <tr><td><br></td></tr>
 

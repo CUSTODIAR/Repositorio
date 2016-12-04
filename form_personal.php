@@ -13,7 +13,7 @@
             <div class="tabs">
                 <ul>
                     <li><a href="index.php"> <img src="img/menu-4.png" width=40 height=40> Inicio </a></li>
-                    <li><a href="#personal" class="active"> <img src="img/user-2.png" width=40 height=40> Empleados </a></li>
+                    <li><a href="#personal" class="active"> <img src="img/user-3.png" width=40 height=40> Empleados </a></li>
                 </ul>
 
                 <!--inicio-->  
@@ -27,7 +27,7 @@
                         <thead>
 
                             <!--encabezado--> 
-                            <tr><td colspan=10 class="tablaimagen"><img src="img/user-2.png" width=80 height=80></td></tr>
+                            <tr><td colspan=10 class="tablaimagen"><img src="img/user-3.png" width=80 height=80></td></tr>
                             <tr><td colspan=10 class="tablatitulo">Empleados</td></tr>
                             <tr><td colspan=10 align="right"><input type="button" value="Agregar" class="boton1" onClick=" window.location.href='#ventana' "></td></tr>
                             <tr><td><br></td></tr>
@@ -63,7 +63,7 @@
                                     <td><?php echo $row['nombrecontrato'] ?></td>
                                     <td>
                                         <a href="actualizar_personal.php?u=<?php echo $row['idpersona'] ?>">
-                                        <img src="img/boton-1.png" width=20 height=20 title="Editar Registro"></a>
+                                        <img src="img/boton-10.png" width=20 height=20 title="Editar Registro"></a>
                                     </td>
                                     
                                 </tr>

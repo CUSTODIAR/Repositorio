@@ -12,11 +12,6 @@
 
         $obj = new Ttecno();
         $tecno = $obj->tecnoPorId($_GET["u"]);
-        <h4>
-        </h4>
-         <h4>
-        </h4>
-
 ?>
 <!doctype html>
 <html>
